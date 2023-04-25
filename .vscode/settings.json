@@ -1,0 +1,17 @@
+{
+    "sqltools.connections": [
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "driver": "MSSQL",
+            "name": "Client_DB",
+            "connectString": "Server=tcp:bravosix-server.database.windows.net,1433;Initial Catalog=Client_DB;Persist Security Info=False;User ID=CameronLove;Password=21Liverpool;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
+            "connectionTimeout": 30
+        }
+    ]
+}
