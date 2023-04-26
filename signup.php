@@ -20,15 +20,12 @@
             <div class="txt_field">
                 <input type="password" name="pwdrepeat" placeholder="Confirm Password" required>
             </div>
-            <div class="pass">Forgot Password?</div>
             <button type="submit" name="submit">Sign Up</button>
             <div class="signup_link">
-                Go Back? <a href="index.html">Click Here</a>
+                Go back to log in? <a href="Login.php">Click Here</a>
             </div>
         </form>
     </div>
-
-
 
 <?php
     include_once 'footer.php';
