@@ -6,7 +6,7 @@
     <!--Markup all web page content inside the 'body' tags -->
     <div class="center">
         <h1>Login</h1>
-        <form action="login.inc.php" method="post">
+        <form action="includes/login.inc.php" method="post">
             <div class="txt_field" id="First_Name">
                 <input type="text" name="name" placeholder="Username/Email" required>
             </div>

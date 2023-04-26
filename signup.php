@@ -4,7 +4,7 @@
 <body>
     <div class="center">
         <h1>Sign Up</h1>
-        <form action="signup.inc.php" method="post">
+        <form action="includes/signup.inc.php" method="post">
             <div class="txt_field">
                 <input type="text" name="name" placeholder="Full Name" required>
             </div>
