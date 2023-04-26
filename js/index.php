@@ -1,56 +1,65 @@
-<?php
-
-?>
 <!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8"><!--character encoding for the document (Unicode) -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Final Year Project</title><!--web page title -->
-    <link href="Login_page.css" rel="stylesheet" />
-    <link href="normalize.css" rel="stylesheet" />
-    <link href="http://fonts.googleapis.com/css?family=Strait" rel="stylesheet">
-
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
-            font-size: 100%;
-            background-color: #fff;
-        }
-    </style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="grid.css" rel="stylesheet" />
+    <link href="http://fonts.googleapis.com/css?family=Strait" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <title>Final Year Project</title>
 </head>
 <body>
-    <!--Markup all web page content inside the 'body' tags -->
-    <div class="center">
-        <h1>Login</h1>
-        <form method="post">
-            <div class="txt_field" id="First_Name">
-                <input type="text" required>
-                <span></span>
-                <label class="email">Email</label>
-            </div>
-            <div class="txt_field">
-                <input type="password" required>
-                <span></span>
-                <label>Password</label>
-            </div>
-            <div class="pass">Forgot Password?</div>
-            <input type="submit" value="Login">
-            <div class="signup_link">
-                Not a member? <a href="register.html">Sign Up</a>
-            </div>
-        </form>
+    <a id="top"></a>
+    <div>
+        <nav>
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">Bravo 6 Recruiters</label>
+            <ul>
+                <li><a class="active" href="startPage.html">Home</a></li>
+                <li><a class="active" href="homePagePeople.html">Candidates</a></li>
+                <li><a class="active" href="#">Contact</a></li>
+                <li><a class="active" href="#">Profile</a></li>
+                <li><a class="active" href="#">Feedback</a></li>
+            </ul>
+        </nav>
+        <header>
+            Types of jobs of offer.
+        </header>
+
+        <div class="main">
+            <aside class="left">
+                Types of jobs
+            </aside>
+            <main>
+                <table>
+                    <caption>Jobs On Offer </caption>
+                    <tr>
+                        <td>
+                            Job Number One
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Job Number Two
+                        </td>
+                    </tr>
+                </table>
+            </main>
+
+            <aside class="right">
+                <p>Right</p>
+            </aside>
+        </div>
+
+        <footer>
+            <small>Cameron Love. 2023 &copy; <a href="mailto:C.love1@uni.brighton.ac.uk">Email Cameron Love</a></small>
+        </footer>
+
     </div>
 
-
-
-    <footer>
-        <nav class="footer">
-            <small>&copy; 2023, Cameron Leonard Love <a href="mailto:C.love1@uni.brighton.ac.uk">Email Cameron Love</a></small>
-        </nav>
-    </footer>
 </body>
 </html>
