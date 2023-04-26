@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
@@ -23,6 +27,13 @@
                 <li><a class="active" href="#">Candidates</a></li>
                 <li><a class="active" href="#">Contact</a></li>
                 <li><a class="active" href="#"></a></li>
-                <li><a class="active" href="Login.php">Log In</a></li>
-            </ul>
+                <?php
+                if (isset($_SESSION["useruid"])) {
+                    echo "<li><a class='active' href='profile.php'>Profile Page</a></li>";
+                    echo "<li><a class='active' href='includes/logout.inc.php'>Log Out</a></li>";
+                }
+                else {
+                    "<li><a class='active' href='Login.php'>Log In</a></li>";
+                }
+                ?>
         </nav>

@@ -8,7 +8,7 @@
         <h1>Login</h1>
         <form action="includes/login.inc.php" method="post">
             <div class="txt_field" id="First_Name">
-                <input type="text" name="name" placeholder="Username/Email" required>
+                <input type="text" name="uid" placeholder="Username/Email" required>
             </div>
             <div class="txt_field">
                 <input type="password" name="pwd" placeholder="Password" required>
@@ -19,7 +19,16 @@
             </div>
         </form>
     </div>
-
+    <?php
+        if (isset($_GET["error"])) {
+            if ($_GET["error"] == "emptyinput") {
+                echo "<p> Fill in all the fields!</p>";
+            }
+            else if ($_GET["error"] == "wronglogin") {
+                echo "<p> Incorrect login information!</p>";
+            }     
+        }
+    ?>
 
 
 <?php
