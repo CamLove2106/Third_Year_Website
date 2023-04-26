@@ -22,8 +22,8 @@
                 <li><a class="active" href="startPage.html">Home</a></li>
                 <li><a class="active" href="homePagePeople.html">Candidates</a></li>
                 <li><a class="active" href="#">Contact</a></li>
-                <li><a class="active" href="#">Profile</a></li>
-                <li><a class="active" href="#">Feedback</a></li>
+                <li><a class="active" href="#"></a></li>
+                <li><a class="active" href="Login.php">Log In</a></li>
             </ul>
         </nav>
         <header>
@@ -31,22 +31,9 @@
         </header>
 
         <div class="main">
-            <aside class="left">
-                Types of jobs
-            </aside>
             <main>
                 <table>
-                    <caption>Jobs On Offer </caption>
-                    <tr>
-                        <td>
-                            Job Number One
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Job Number Two
-                        </td>
-                    </tr>
+                   
                 </table>
             </main>
 
