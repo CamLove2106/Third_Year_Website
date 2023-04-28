@@ -3,27 +3,12 @@
 ?>
 <body>
     <div class="center">
-        <h1>Sign Up</h1>
-        <form action="includes/signup.inc.php" method="post">
+        <h1>Reset your password</h1>
+        <p>AN email will be sent to you with the instructoins on how to reset your password!</p>
+        <form action="includes/reset-request.inc.php" method="post">
             <div class="txt_field">
-                <input type="text" name="name" placeholder="Full Name" required>
-            </div>
-            <div class="txt_field">
-                <input type="text" name="email" placeholder="Email Address" required>
-            </div>
-            <div class="txt_field">
-                <input type="text" name="uid" placeholder="Username" required>
-            </div>
-            <div class="txt_field">
-                <input type="password" name="pwd" placeholder="Password" required>
-            </div>
-            <div class="txt_field">
-                <input type="password" name="pwdrepeat" placeholder="Confirm Password" required>
-            </div>
-            <button type="submit" name="submit">Sign Up</button>
-            <div class="signup_link">
-                Go back to log in? <a href="Login.php">Click Here</a>
-                <a href="reset-password.php">Forgot your password?</a>
+                <input type="text" name="email" placeholder="Enter your email address!" required>
+                <button type="submit" name="reset-request-submit">Receieve email password reset</button>
             </div>
         </form>
     </div>
