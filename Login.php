@@ -8,10 +8,10 @@
         <h1>Login</h1>
         <form action="includes/login.inc.php" method="post">
             <div class="txt_field" id="First_Name">
-                <input type="text" name="uid" placeholder="Username/Email" required>
+                <input type="text" name="uid" placeholder="Username/Email">
             </div>
             <div class="txt_field">
-                <input type="password" name="pwd" placeholder="Password" required>
+                <input type="password" name="pwd" placeholder="Password">
             </div>
             <button type="submit" name="Submit">Log In</button>
             <div class="signup_link">

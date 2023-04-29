@@ -6,19 +6,19 @@
         <h1>Sign Up</h1>
         <form action="includes/signup.inc.php" method="post">
             <div class="txt_field">
-                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="text" name="name" placeholder="Full Name">
             </div>
             <div class="txt_field">
-                <input type="text" name="email" placeholder="Email Address" required>
+                <input type="text" name="email" placeholder="Email Address">
             </div>
             <div class="txt_field">
-                <input type="text" name="uid" placeholder="Username" required>
+                <input type="text" name="uid" placeholder="Username">
             </div>
             <div class="txt_field">
-                <input type="password" name="pwd" placeholder="Password" required>
+                <input type="password" name="pwd" placeholder="Password">
             </div>
             <div class="txt_field">
-                <input type="password" name="pwdrepeat" placeholder="Confirm Password" required>
+                <input type="password" name="pwdrepeat" placeholder="Confirm Password">
             </div>
             <button type="submit" name="submit">Sign Up</button>
             <div class="signup_link">
