@@ -23,6 +23,14 @@
             <button type="submit" name="submit">Sign Up</button>
             <div class="signup_link">
                 Go back to log in? <a href="Login.php">Click Here</a>
+                <?php
+                if (isset($_GET["newpwd"])) {
+                    if ($_GET["newpwd"] == "passwordupdated") {
+                        echo '<p class = "signupsuccess">Your password has been reset!</p>';
+                
+                    }
+                }
+                ?>
                 <a href="reset-password.php">Forgot your password?</a>
             </div>
         </form>
